@@ -1,0 +1,13 @@
+num_of_gpus: 4
+
+train_test_split_ratio : 0.9 
+
+# cnn
+min_side : 299
+nb_batches : 1 #64
+img_root : 'imgs'
+
+# lstm
+max_features : 25000  # how many unique words to use (i.e num rows in embedding vector)
+maxlen : 20  # max number of words in a comment to use
+embedding_dim : 100

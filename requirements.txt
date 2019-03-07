@@ -1,0 +1,16 @@
+scipy==1.1.0
+numpy==1.14.3
+pandas==0.23.0
+matplotlib==2.2.2
+Keras==2.2.4
+tensorflow_gpu==1.11.0
+imgaug==0.2.6
+h5py==2.7.1
+six==1.11.0
+scikit_image==0.13.1
+ipywidgets==7.2.1
+ipython==7.1.1
+Pillow==5.3.0
+scikit_learn==0.20.0
+opencv-python==3.4.3.18
+PyYAML==3.13
