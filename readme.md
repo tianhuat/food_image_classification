@@ -1,6 +1,16 @@
 ## Overview
 
-We would like to enable the users to filter the food based on the categories. With more than a million food images, it is simply not efficient to manually label every individual image. Therefore, we would like to build a model, trained on a subset of the data which were manually labelled with a list of decided tags, to generate the tags for the rest of the non-tagged images.
+The goal here is to enable the users to filter the food based on the categories. With more than a million food images, it is simply not efficient to manually label every individual image. Therefore, we would like to build a model, trained on a subset of the data which were manually labelled with a list of decided tags, to generate the tags for the rest of the non-tagged images.
+
+## Problem
+The problem here is that given over 2.2 million food images, and their meta information (e.g., description, food name), try 
+to predict the food types (e.g., Burger, Cake_and_Bread, Chicken, Chinese, Coffee, Dessert_Sweet).
+ 
+Note that each food item can have multiple food types and they are a total of 48 food types.
+
+To goal is to identify food types for every food item. (Multi-label classification)
+
+
 
 ## Installation
 1. Run the following commands in sequence 
@@ -17,9 +27,7 @@ We would like to enable the users to filter the food based on the categories. Wi
 5. Run `python3 food_prediction_train.py` to train the model.
 6. After finish the training, run `python3 food_prediction_test.py` to test the trained model
 
-## Problem
 
-To generate tags for every food item. (Multi-label classification)
 
 ## Data
 

@@ -4,7 +4,7 @@ train_test_split_ratio : 0.9
 
 # cnn
 min_side : 299
-nb_batches : 1 #64
+nb_batches : 64
 img_root : 'imgs'
 
 # lstm
